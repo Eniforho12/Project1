@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>eniforho portfolio website</title>
+  <link href="portfolio.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/c0d5337d9a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        
+        <h1 class="h11" >ENIFORHO</h1>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+           <li><a href="#about">About</a></li>
+            <li><a href="#Services">Services</a></li>
+             <li><a href="#Portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" id="fast" onclick="openmenu()"></i>
+      </nav>
+      </div>
+      <div class="header-text">
+        <p>web developer</p>
+        <h1>Hi, I'm <span>omoefe<br> eniforho </span> a web<br> developer from Nigeria </h1>
+      </div>
+      </div>
+      
+      <!--about -->
+      
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="myphoto.png">
+            </div>
+             <div class="about-col-2">
+               <h1 class="sub-title">About me</h1>
+<p>I'm a passionate web developer with
+knack for turning ideas into interactive
+and user-friendly digital experience. Proficient in front-end technologies like HTML, CSS, and JavaScript, I specialize in creating responsive and visually appealing websites. With a keen eye for design and a dedication to clean efficient code, I strive to bring innovation and functionality to every project. Constantly adapting to new technologies, I enjoy the dynamic nature of web development and the opportunity to turn creative concepts into reality.</p>
+               <div class="tab-titles">
+  <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+  <p class="tab-links" onclick="opentab('experience')">experience</p>
+ <p class="tab-links" onclick="opentab('education')">education</p>
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                 <ul>
+                   <li><span>UI?UX</span><br>Designing web/App interfaces</li>
+                   <li><span>web development </span><br> web App development </li>
+                   <li><span>Front-end Frameworks</span><br>perfect design for front-end part of website</li>
+                 </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                 <ul>
+                   <li>
+                    Implemented responsive design for a client's e-commerce site, enhancing user experience across various devices. Collaborated with UX/UI designers to translate wireframes into interactive and visually appealing interfaces. Utilized HTML, CSS, and JavaScript to optimize site performance and ensure cross-browser compatibility. Incorporated efficient coding practices to improve page load times, resulting in a 20% increase in user engagement.
+ 
+                   </li>
+                 </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                 <ul>
+                   <li>
+                     <span>Certifications:</span>
+Full Stack Web Development Certification (Issued by an accredited online learning platform)
+<br>
+<br>
+<span>Responsive Web Design</span> Certification (Issued by a recognized industry organization)
+                   </li>
+                 </ul>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+      <!-- Services. -->
+      <div id="Services">
+        <div class="container">
+          <h1 class="sub-title"> My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h1>Web design</h1>
+              <p>
+                Crafting Exceptional Web Experiences: Elevate your online presence with bespoke web design services. I specialize in creating visually stunning and user-friendly websites tailored to your brand. From concept to execution, I bring creativity and functionality together, ensuring a seamless digital journey for your audience. Let's collaborate to transform your ideas into a captivating online reality.
+              </p>
+              <a href="#">learn more</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-crop-simple"></i>
+              <h1>UI/UX</h1>
+              <p>
+                Elevate User Experiences with Intuitive UI/UX Design: Unleash the power of thoughtful design that goes beyond aesthetics. My UI/UX services focus on creating interfaces that seamlessly blend functionality with an engaging user journey. From wireframes to polished designs, I prioritize user-centricity to enhance satisfaction and interaction. Let's shape interfaces that not only look great but also deliver a smooth, delightful experience for your audience.
+              </p>
+              <a href="#">learn more</a>
+            </div>
+            <div>
+               <i class="fa-solid fa-code"></i>
+              <h1>custom web solutions</h1>
+              <p>
+                 
+Develop tailored solutions to meet specific business needs, utilizing a diverse range of programming languages and frameworks to create unique and effective online platforms.
+              </p>
+              <a href="#">learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Portfolio -->
+      <div id="Portfolio">
+        <div class="container">
+          <h1 class="sub-title">My work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="myphoto1.png">
+              <div class="layer">
+              <h3>e-commerce website</h3>
+              <p>highly developed and attractive e-commerce website with fast response  </p>
+              <a href="#"><li class="fas fa-external-link-alt"></li></a>
+                </div>
+            </div>
+            <div class="work">
+              <img src="myphoto2.png">
+              <div class="layer">
+              <h3>school website</h3>
+              <p>professional school website with modern features</p>
+              <a href="#"><li class="fas fa-external-link-alt"></li></a>
+                </div>
+            </div>
+            <div class="work">
+              <img src="myphoto3.png">
+              <div class="layer">
+              <h3>food website</h3>
+              <p>professional food ordering website to order your food</p>
+              <a href="#"><li class="fas fa-external-link-alt"></li></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+      
+      <!-- contact -->
+      
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact me</h1>
+              <p><i class="fas fa-paper-plane"></i>awork9876@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i>+2349123449019</p>
+              <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100088162610754"><i class="fab fa-facebook"></i></a>
+                <a href="https://x.com/OmoefeEniforho?t=pSkX8ZuZIuHTd7B9Mj21fw&s=09"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?i=l8079ocbfa16&utm_content=pgl928j"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/omoefe-eniforho-837954257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+              </div>
+              <a href="images.mycv.pdf" download class="btn btn2">download cv</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your name" required>
+                <input type="email" name="Email" placeholder="Your email" required>
+                <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>copyright © omoefe eniforho.</p>
+        </div>
+      </div>
+      
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      } 
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      } 
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+  }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyEXp3enfMLVJNbsWRo8TRVK9ZEgYATPyTlmb6OmQXBZylEp9EyeGzILfaeDkUThO-Hrg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      }) 
+      .catch(error => console.error('Error!', error.message))
+  }) 
+  </script>
+</body>
+</html>
